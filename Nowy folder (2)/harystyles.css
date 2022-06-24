@@ -3,10 +3,21 @@ h1{color: orange;
  text-align: center;               
 
 }
-p{color: brown;
-background-color: aquamarine;
+p{color: rgb(219, 23, 219);
+
 text-align: center;
 line-height: 30px;
 letter-spacing: 1px;
 
+}
+p.lol{
+    background-color: rgb(13, 226, 226);
+}
+a[href$=".com"]{
+    color: black;
+    background-color: aqua;
+    border: 20px solid blue;
+}
+div{
+    color: lightcoral;
 }
